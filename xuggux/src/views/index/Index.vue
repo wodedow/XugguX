@@ -9,12 +9,12 @@
     <p>......</p>
     <p>......</p>
     <p><br /></p>
-    <p>普通的展示网页，在IIS中设置一下就可以了 <a href="https://www.jb51.net/article/180451.htm" style="color:purple">点此查看</a></p>
+    <p>普通的展示网页，在 IIS 中设置一下就可以了 <a href="https://www.jb51.net/article/180451.htm" style="color:purple">点此查看</a></p>
     <p>......</p>
     <p>......</p>
     <p><br /></p>
     <p>高级一点的需要在服务器端安装 NodeJS，通过 express 框架设置静态文件的路径，路径设置为 Vue 通过 npm run build 打包的 dist 文件夹路径，通过 NodeJS 运行 js 文件，并在 80
-      端口监听</p>
+      端口监听。有的时候可能监听不了 80 端口，这个时候需要在 IIS 中把占用 80 端口的程序关闭</p>
     <p>......</p>
     <p>......</p>
     <p><br /></p>
